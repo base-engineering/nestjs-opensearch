@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ## :warning: We use GitHub Issues to track bug reports, feature requests and regressions
- 
+
         If you are not sure that your issue is a bug, you could:
 
         - use our [Discord community](https://discord.gg/NestJS)
@@ -22,8 +22,8 @@ body:
       label: "Is there an existing issue for this?"
       description: "Please search [here](./?q=is%3Aissue) to see if an issue already exists for the bug you encountered"
       options:
-      - label: "I have searched the existing issues"
-        required: true
+        - label: "I have searched the existing issues"
+          required: true
 
   - type: textarea
     validations:
@@ -69,7 +69,7 @@ body:
     attributes:
       label: "Package version"
       description: |
-        Which version of `@nestjs/elasticsearch` are you using?
+        Which version of `@nestjs/opensearcg` are you using?
         **Tip**: Make sure that all of yours `@nestjs/*` dependencies are in sync!
       placeholder: "8.1.3"
 

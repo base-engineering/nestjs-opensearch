@@ -1,8 +1,8 @@
 {
-  "name": "@nestjs/elasticsearch",
+  "name": "@nestjs/opensearch",
   "version": "9.0.0",
-  "description": "Nest - modern, fast, powerful node.js web framework (@elasticsearch)",
-  "author": "Kamil Mysliwiec",
+  "description": "Nest - modern, fast, powerful node.js web framework (@opensearch)",
+  "author": "Coby Benveniste",
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"lib/**/*.ts\" --fix",
@@ -15,14 +15,14 @@
     "release": "release-it"
   },
   "peerDependencies": {
-    "@elastic/elasticsearch": "^7.4.0 || ^8.0.0",
+    "@opensearch-project/opensearch": "^1.1.0 || ^2.0.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
     "rxjs": "^7.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-angular": "17.1.0",
-    "@elastic/elasticsearch": "8.4.0",
+    "@opensearch-project/opensearch": "2.0.0",
     "@nestjs/common": "9.0.11",
     "@types/node": "16.11.59",
     "@typescript-eslint/eslint-plugin": "5.37.0",
